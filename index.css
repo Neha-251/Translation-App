@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/concept-of-translation-from-different-languages-on-an-abstract-world-picture-id1276702405?b=1&k=20&m=1276702405&s=170667a&w=0&h=I_5F_YLJDhyQ2iBJ17NUqanuBYS2swOcgdlPct_SXM4=");
+    background-size:cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div{
+      /* border:1px solid rgb(221, 212, 212); */
+      height:300px;
+  }
+  #container{
+      display:flex;
+      flex-direction: column;
+      height:600px;
+      width: 650px;
+      margin: auto;
+  }
+  #input-section{
+     flex:1;
+     margin:5%;
+     
+  }
+
+  h5{
+color: brown;
+font-size: 25px;
+margin-left: 200px;
+  }
+  
+  #output-section{
+    width:98%;
+      height:30%;
+      background-color: transparent;
+      border: 3px solid rgb(2, 63, 92);
+      color:crimson;
+      font-size: 25px;
+      font-weight: 600;
+      background-color: aliceblue;
+      padding: 10px;
+      opacity:70%;
+
+  }
+  #voice-btn{
+      padding:5px 10px;
+      background-color: transparent;
+      border:none;
+    margin-left:200px;
+cursor: pointer;
+  }
+  .fa-microphone{
+      font-size:30px;
+      
+  }
+  #input-text{
+      width:98%;
+      height: 60%;
+      background-color: aliceblue;
+      border: 3px solid rgb(2, 63, 92);
+      color:crimson;
+      font-size: 25px;
+      padding: 10px;
+      font-weight: 600;
+      opacity:70%;
+  }
+  #translate-btn{
+    margin-bottom:20px;
+    height:40px;
+    width:105px;
+    padding-bottom:5px;
+    padding-top:5px;
+    font-size: larger;
+    color:brown;
+    font-weight: 700;
+    border: 3px solid rgb(2, 63, 92);
+    background-color: aliceblue;
+
+  }
+  #translate-btn:hover{
+    background-color: rgb(228, 46, 115);
+    color:midnightblue;
+    cursor: pointer;
+  }
+  #translated-text{
+      font-size: 20px;
+      color:crimson;
+  }
+
+  #selectLangOup{
+    width: 100px;
+  }
+
